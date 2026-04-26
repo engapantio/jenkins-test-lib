@@ -1,4 +1,4 @@
-def call(String repo, String tag) {
+def call(String repo, String imageTag) {
     def vulnerabilities = sh(
         script: """
             trivy image \
